@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:movie": "node microservices/movie/service.js",
+    "start:tvshow": "node microservices/tvShow/service.js",
+    "start:gateway": "node gateway/server.js"
   },
   "keywords": [],
   "author": "",
